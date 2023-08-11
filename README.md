@@ -1,9 +1,13 @@
 ## Correct Declaration Classification
 
-You need just save in same directory your data in format 'data.csv'.
+**Prerequisites:**
 
-Data need to have 'label' with your target(integer number)
+- Ensure that your dataset is saved in the same directory as the script and is named 'data.csv'.
+- The dataset must contain a column named 'label' which represents your target variable. This column should have integer values.
 
-After that you can run all code.
+**Steps:**
+  
+- Once you've ensured the prerequisites are met, simply run the provided script.
+- Upon successful execution, a file named model.cbm will be generated in the current directory. This file contains the trained weights of the CatBoost model.
 
-At the end you will get 'model.cbm' file with weights of your model
+With these simple steps, you can easily train and save your CatBoost model. Happy modeling!
