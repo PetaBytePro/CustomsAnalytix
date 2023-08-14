@@ -2,6 +2,7 @@
 
 **Prerequisites:**
 
+- Work with Google Colab
 - Ensure that your dataset is saved in the same directory as the script and is named 'data.csv'.
 - The dataset must contain a column named 'label' which represents your target variable. This column should have integer values.
 
